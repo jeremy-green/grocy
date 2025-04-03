@@ -38,7 +38,7 @@ class GrocyEntity(CoordinatorEntity[GrocyDataUpdateCoordinator]):
             name=NAME,
             manufacturer=NAME,
             sw_version=VERSION,
-            entry_type=DeviceEntryType.DEVICE,
+            entry_type=DeviceEntryType.SERVICE,
         )
 
     @property
